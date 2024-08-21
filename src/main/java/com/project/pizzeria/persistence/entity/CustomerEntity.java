@@ -14,7 +14,7 @@ public class CustomerEntity {
     @Id
     @Column(name="id_Customer", nullable=false, length = 15)
     //id will be assing by us no generatevale
-    private Integer idCustomer;
+    private String idCustomer;
 
     @Column(nullable=false, length=60)
     private String name;
